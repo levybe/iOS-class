@@ -438,7 +438,7 @@
                     <connections>
                         <outlet property="correctWordLabel" destination="RWO-uv-bIt" id="8Rq-0e-c8F"/>
                         <outlet property="scoreLabel" destination="3R1-4K-Lfo" id="R5g-iI-kv8"/>
-                        <outlet property="treeImageView" destination="8bC-Xf-vdC" id="FS0-Ay-6tQ"/>
+                        <outlet property="treeImageView" destination="Ex4-Qx-MGd" id="XPy-iP-Hss"/>
                         <outletCollection property="letterButtons" destination="RPa-PR-HKZ" collectionClass="NSMutableArray" id="Mex-Gx-Vh8"/>
                         <outletCollection property="letterButtons" destination="LIu-aV-v6W" collectionClass="NSMutableArray" id="vaB-Rd-S6u"/>
                         <outletCollection property="letterButtons" destination="cFm-fC-KiT" collectionClass="NSMutableArray" id="TnJ-Fu-Hpk"/>
