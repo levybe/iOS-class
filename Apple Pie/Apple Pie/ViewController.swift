@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet var letterButtons: [UIButton]!
     
+    var wordsURL = Bundle.main.path(forResource: "usa", ofType: "txt")
+    
     var listOfWords = ["buccaneer", "swift", "glorious", "incandescent", "bug", "program"]
     let incorrectMovesAllowed = 7
     var totalWins = 0 {
@@ -64,7 +66,6 @@ class ViewController: UIViewController {
     
     @IBAction func letterButtonPressed(_ sender: UIButton) {
         sender.isEnabled = false
-        print(sender.title(for: .normal))
             let letterString = sender.title(for: .normal)!
             let letter = Character(letterString.lowercased())
             currentGame.playerGuessed(letter: letter)

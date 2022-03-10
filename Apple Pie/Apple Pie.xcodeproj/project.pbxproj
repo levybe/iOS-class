@@ -13,6 +13,7 @@
 		CB08F58327D25C5F00367FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB08F58127D25C5F00367FF2 /* Main.storyboard */; };
 		CB08F58527D25C6200367FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB08F58427D25C6200367FF2 /* Assets.xcassets */; };
 		CB08F58827D25C6200367FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB08F58627D25C6200367FF2 /* LaunchScreen.storyboard */; };
+		CBDEF5AE27DA911C000DFDC2 /* usa.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBDEF5AD27DA911C000DFDC2 /* usa.txt */; };
 		CBE3BD5827D7BD4700D03D67 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3BD5727D7BD4700D03D67 /* Game.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		CB08F58427D25C6200367FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB08F58727D25C6200367FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB08F58927D25C6200367FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBDEF5AD27DA911C000DFDC2 /* usa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = usa.txt; sourceTree = "<group>"; };
 		CBE3BD5727D7BD4700D03D67 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 		CB08F57A27D25C5F00367FF2 /* Apple Pie */ = {
 			isa = PBXGroup;
 			children = (
+				CBDEF5AD27DA911C000DFDC2 /* usa.txt */,
 				CB08F57B27D25C5F00367FF2 /* AppDelegate.swift */,
 				CB08F57D27D25C5F00367FF2 /* SceneDelegate.swift */,
 				CB08F57F27D25C5F00367FF2 /* ViewController.swift */,
@@ -130,6 +133,7 @@
 			files = (
 				CB08F58827D25C6200367FF2 /* LaunchScreen.storyboard in Resources */,
 				CB08F58527D25C6200367FF2 /* Assets.xcassets in Resources */,
+				CBDEF5AE27DA911C000DFDC2 /* usa.txt in Resources */,
 				CB08F58327D25C5F00367FF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
