@@ -14,9 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet var letterButtons: [UIButton]!
     
-    var wordsURL = Bundle.main.path(forResource: "usa", ofType: "txt")
+    var word = Words()
     
-    var listOfWords = ["buccaneer", "swift", "glorious", "incandescent", "bug", "program"]
     let incorrectMovesAllowed = 7
     var totalWins = 0 {
         didSet {
@@ -37,14 +36,10 @@ class ViewController: UIViewController {
     }
     
     func newRound() {
-        if !listOfWords.isEmpty {
-            let newWord = listOfWords.removeFirst()
+        let newWord = word.sendWord()
             currentGame = Game(word: newWord, incorrectMovesRemaining: incorrectMovesAllowed, guessedLetters: [])
             enableLetterButtons(true)
             updateUI()
-        } else {
-            enableLetterButtons(false)
-        }
     }
     
     func enableLetterButtons(_ enable: Bool) {
