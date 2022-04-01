@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet var letterButtons: [UIButton]!
     
+    // Comment.
     var word = Words()
     
     let incorrectMovesAllowed = 7
