@@ -7,11 +7,12 @@
 
  Declare a constant `userInputAge` of type `String` and assign it "34e" to simulate a typo while typing age. Then declare a constant `userAge` of type `Int` and set its value using the `Int` initializer that takes an instance of `String` as input. Pass in `userInputAge` as the argument for the initializer. What error do you get?
  */
-
+let userInputAge: String = "34"
+let userAge: Int? = Int(userInputAge)
 
 //:  Go back and change the type of `userAge` to `Int?`, and print the value of `userAge`. Why is `userAge`'s value `nil`? Provide your answer in a comment or print statement below.
-
-
+print(userAge!)
+// Making something an optional (putting a ? at the end of it) gives the variable a value of nil if it is not initialized with a valid value.
 /*:
  Now go back and fix the typo on the value of `userInputAge`. Is there anything about the value printed that seems off?
 
@@ -20,7 +21,9 @@
 
 
 //:  Now use optional binding to unwrap `userAge`. If `userAge` has a value, print it to the console.
-
+if let age = userAge {
+    print(age)
+}
 
 /*:
 page 1 of 6  |  [Next: App Exercise - Finding a Heart Rate](@next)
