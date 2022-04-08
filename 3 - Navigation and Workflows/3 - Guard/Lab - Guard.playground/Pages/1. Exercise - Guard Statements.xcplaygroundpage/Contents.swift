@@ -47,12 +47,14 @@ func createUser () -> User? {
     guard let firstName = firstNameTextField.text, let lastName = lastNameTextField.text, let age = ageTextField.text else {
         return nil
     }
-    User user = new User(firstName: firstName, lastName: lastName, age: age)
+    let user = User(firstName: firstName, lastName: lastName, age: age)
     return user
 }
 //:  Call the function you made above and capture the return value. Unwrap the `User` with standard optional binding and print a statement using each of its properties.
-
-
+var returnValue: User? = createUser()
+if let returnValue = returnValue {
+    print("Name: \(returnValue.firstName) \(returnValue.lastName)\nAge: \(returnValue.age)")
+}
 /*:
 page 1 of 2  |  [Next: App Exercise - Guard](@next)
  */

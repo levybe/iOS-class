@@ -37,7 +37,7 @@ let foodTextField = UITextField()
 let caloriesTextField = UITextField()
 
 foodTextField.text = "Banana"
-caloriesTextField.text = "23"
+caloriesTextField.text = "twenty-three"
 
 func logFood () -> Food? {
     guard let food = foodTextField.text, let caloriesTxt = caloriesTextField.text, let calories = Int(caloriesTxt) else {
