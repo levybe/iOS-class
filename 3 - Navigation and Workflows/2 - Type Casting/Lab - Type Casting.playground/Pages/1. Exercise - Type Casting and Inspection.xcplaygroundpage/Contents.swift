@@ -33,10 +33,36 @@ for thing in things {
     else if let value = thing.value as? Int {
         total += Double(value)
     }
+    else if thing.value is String {
+        total += 1
+    }
+    else if let value = thing.value as? Bool {
+        if value {
+            total += 2
+        }
+        else {
+            total -= 3
+        }
+    }
 }
+print(total)
 //:  Create a variable `total2` of type `Double` set to 0. Loop through the collection again, adding up all the integers and doubles. For each string that you come across during the loop, attempt to convert the string into a number, and add that value to the total. Ignore booleans. Print the total.
- 
+var total2: Double = 0
 
+for thing in things {
+    if let value = thing.value as? Double {
+        total2 += value
+    }
+    else if let value = thing.value as? Int {
+        total2 += Double(value)
+    }
+    else if let value = thing.value as? String {
+        if let unwrappedValue = Double (value) {
+            total2 += unwrappedValue
+        }
+    }
+}
+print(total2)
 /*:
 page 1 of 2  |  [Next: App Exercise - Workout Types](@next)
  */
