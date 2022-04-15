@@ -16,10 +16,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func yellowButtonTapped(_ sender: Any) {
-        performSegue(withIdentifier: "yellow", sender: nil)
+        if (segueSwitch.isOn) {
+            performSegue(withIdentifier: "yellow", sender: nil)
+        }
     }
     @IBAction func greenButtonTapped(_ sender: Any) {
-        performSegue(withIdentifier: "green", sender: nil)
+        if (segueSwitch.isOn) {
+            performSegue(withIdentifier: "green", sender: nil)
+        }
     }
     
 }
