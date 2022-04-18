@@ -29,7 +29,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Log In"/>
                                 <connections>
-                                    <segue destination="hXb-ZI-N13" kind="show" id="o4T-Jh-TSn"/>
+                                    <segue destination="hXb-ZI-N13" kind="show" identifier="loginSegue" id="o4T-Jh-TSn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6B-na-ZLf">
@@ -63,10 +63,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="Login" largeTitleDisplayMode="always" id="ZkC-af-eXF"/>
                     <connections>
-                        <outlet property="forgotPassWord" destination="JYY-fI-DX2" id="T7g-wB-Pe8"/>
-                        <outlet property="forgotUserName" destination="X6B-na-ZLf" id="wdb-oe-rbA"/>
+                        <outlet property="forgotPassWord" destination="JYY-fI-DX2" id="hTM-ZM-qeb"/>
+                        <outlet property="forgotUserName" destination="X6B-na-ZLf" id="aZb-fH-eIi"/>
                         <outlet property="userName" destination="ZPN-qd-gYD" id="bUl-E9-zp5"/>
-                        <segue destination="hXb-ZI-N13" kind="show" identifier="loginToStanding" id="pZQ-2f-IU7"/>
+                        <segue destination="hXb-ZI-N13" kind="show" identifier="screenSegue" id="pZQ-2f-IU7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

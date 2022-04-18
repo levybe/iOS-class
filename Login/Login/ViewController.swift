@@ -17,16 +17,29 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        segue.destination.navigationItem.title = userName.text
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        guard let sender = sender as? UIButton else {
+            return
+        }
+
+        if sender == forgotPassWord {
+            segue.destination.navigationItem.title = "Forgot Password"
+        } else if sender == forgotUserName {
+            segue.destination.navigationItem.title = "Forgot Username"
+        } else {
+            segue.destination.navigationItem.title = userName.text
+        }
     }
     
     @IBAction func forgotUserNamePressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "loginToStanding", sender: sender)
+        performSegue(withIdentifier: "screenSegue", sender: sender)
     }
     
     @IBAction func forgotPassWordPressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "forgotPassWordPressed", sender: sender)
+        performSegue(withIdentifier: "screenSegue", sender: sender)
+        
+        
     }
     
 
