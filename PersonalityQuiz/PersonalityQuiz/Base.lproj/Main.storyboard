@@ -93,7 +93,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="oea-m0-IZo" userLabel="Single-Response">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="oea-m0-IZo" userLabel="Single-Response">
                                 <rect key="frame" x="20" y="329" width="374" height="184"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOe-fN-LhB">
@@ -238,6 +238,7 @@
                             <constraint firstItem="ANT-NZ-Kg9" firstAttribute="leading" secondItem="NFV-ef-i6S" secondAttribute="leading" constant="20" id="YeD-O1-kEh"/>
                             <constraint firstItem="sU8-3x-583" firstAttribute="leading" secondItem="NFV-ef-i6S" secondAttribute="leading" constant="20" id="ZSc-Vd-mbT"/>
                             <constraint firstItem="Ge0-k3-Wbd" firstAttribute="centerY" secondItem="pMM-zf-LxD" secondAttribute="centerY" id="bLZ-aN-FrL"/>
+                            <constraint firstItem="oea-m0-IZo" firstAttribute="centerY" secondItem="pMM-zf-LxD" secondAttribute="centerY" id="bef-LV-EEf"/>
                             <constraint firstItem="NFV-ef-i6S" firstAttribute="bottom" secondItem="Kdf-EM-Mkm" secondAttribute="bottom" constant="20" id="cy2-iJ-aZB"/>
                             <constraint firstItem="NFV-ef-i6S" firstAttribute="trailing" secondItem="sU8-3x-583" secondAttribute="trailing" constant="20" id="d3J-H4-yxW"/>
                             <constraint firstItem="NFV-ef-i6S" firstAttribute="trailing" secondItem="ANT-NZ-Kg9" secondAttribute="trailing" constant="20" id="wZr-nw-VJA"/>
@@ -245,6 +246,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="jvJ-MH-G8x"/>
                     <connections>
+                        <outlet property="multipleStackView" destination="sU8-3x-583" id="x77-kd-ABg"/>
+                        <outlet property="rangedStackView" destination="Ge0-k3-Wbd" id="lQP-rj-uyr"/>
+                        <outlet property="singleStackView" destination="oea-m0-IZo" id="CYx-sn-dKE"/>
                         <segue destination="7Nz-S9-Dxu" kind="show" identifier="Results" id="nFq-F2-8YF"/>
                     </connections>
                 </viewController>
@@ -260,8 +264,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HgW-W4-rKj">
-                                <rect key="frame" x="20" y="401" width="374" height="80.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HgW-W4-rKj">
+                                <rect key="frame" x="20" y="381" width="374" height="80.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cY5-2E-JGH">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
@@ -282,6 +286,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="HgW-W4-rKj" firstAttribute="leading" secondItem="Vvt-Ay-cKE" secondAttribute="leading" constant="20" id="8S5-eB-eAM"/>
+                            <constraint firstItem="HgW-W4-rKj" firstAttribute="centerY" secondItem="3bG-En-Gz9" secondAttribute="centerY" id="Sl9-Md-52r"/>
                             <constraint firstItem="Vvt-Ay-cKE" firstAttribute="trailing" secondItem="HgW-W4-rKj" secondAttribute="trailing" constant="20" id="rIK-51-VtN"/>
                         </constraints>
                     </view>
