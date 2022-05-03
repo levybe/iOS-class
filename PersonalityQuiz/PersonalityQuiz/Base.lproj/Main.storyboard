@@ -100,21 +100,33 @@
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="singleAnswerButtonPressed:" destination="ad2-hO-t5W" eventType="touchUpInside" id="4s2-Vn-KOV"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="veL-aG-rjt">
                                         <rect key="frame" x="0.0" y="51" width="374" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="singleAnswerButtonPressed:" destination="ad2-hO-t5W" eventType="touchUpInside" id="tUC-wQ-sMD"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgM-bk-CFy">
                                         <rect key="frame" x="0.0" y="102" width="374" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="singleAnswerButtonPressed:" destination="ad2-hO-t5W" eventType="touchUpInside" id="rYq-aG-ISr"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sut-JX-PgL">
                                         <rect key="frame" x="0.0" y="153" width="374" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="singleAnswerButtonPressed:" destination="ad2-hO-t5W" eventType="touchUpInside" id="PgC-hb-ERZ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -181,6 +193,9 @@
                                         <rect key="frame" x="0.0" y="204" width="374" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Submit Answer"/>
+                                        <connections>
+                                            <action selector="multipleAnswerButtonPressed" destination="ad2-hO-t5W" eventType="touchUpInside" id="Lhh-I5-uUz"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -211,6 +226,9 @@
                                         <rect key="frame" x="0.0" y="90.5" width="374" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Submit Answer"/>
+                                        <connections>
+                                            <action selector="rangedAnswerButtonPressed" destination="ad2-hO-t5W" eventType="touchUpInside" id="gRe-Qt-RNi"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -250,11 +268,16 @@
                         <outlet property="multiLabel2" destination="uoS-9W-OAn" id="UYt-Oi-Frb"/>
                         <outlet property="multiLabel3" destination="Rlu-XC-drb" id="3Fm-r2-GC1"/>
                         <outlet property="multiLabel4" destination="7HR-uK-Wsl" id="CCA-xa-3lq"/>
+                        <outlet property="multiSwitch1" destination="Ru9-7a-wnr" id="amc-i2-YvE"/>
+                        <outlet property="multiSwitch2" destination="P6t-yp-Kb5" id="jAW-xP-gSa"/>
+                        <outlet property="multiSwitch3" destination="0Ae-Xv-s9J" id="okl-RK-0Hx"/>
+                        <outlet property="multiSwitch4" destination="jQl-y2-y0U" id="nbt-3p-pcG"/>
                         <outlet property="multipleStackView" destination="sU8-3x-583" id="x77-kd-ABg"/>
                         <outlet property="questionLabel" destination="ANT-NZ-Kg9" id="c0q-Gp-0ke"/>
                         <outlet property="questionProgressView" destination="Kdf-EM-Mkm" id="v4c-ie-JUq"/>
                         <outlet property="rangeLabel1" destination="CZH-iY-4aH" id="JLQ-5o-VsR"/>
                         <outlet property="rangeLabel2" destination="woB-NH-ziX" id="IRq-Bx-Xmj"/>
+                        <outlet property="rangedSlider" destination="76q-Yb-TRG" id="l9k-xv-kHh"/>
                         <outlet property="rangedStackView" destination="Ge0-k3-Wbd" id="lQP-rj-uyr"/>
                         <outlet property="singleButton1" destination="OOe-fN-LhB" id="Vw5-9m-HKT"/>
                         <outlet property="singleButton2" destination="veL-aG-rjt" id="PS4-Nl-xeS"/>
