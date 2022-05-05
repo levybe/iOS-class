@@ -284,7 +284,7 @@
                         <outlet property="singleButton3" destination="bgM-bk-CFy" id="vRi-E5-LOe"/>
                         <outlet property="singleButton4" destination="sut-JX-PgL" id="apZ-77-Oa5"/>
                         <outlet property="singleStackView" destination="oea-m0-IZo" id="CYx-sn-dKE"/>
-                        <segue destination="7Nz-S9-Dxu" kind="show" identifier="Results" id="nFq-F2-8YF"/>
+                        <segue destination="7Nz-S9-Dxu" kind="show" identifier="Results" destinationCreationSelector="showResults:" id="nFq-F2-8YF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sNH-hx-64H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -326,10 +326,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Results" id="RbB-MB-Cfh">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="bkd-be-ipO"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="bkd-be-ipO">
+                            <connections>
+                                <segue destination="Yyd-as-uoO" kind="unwind" unwindAction="unwindToQuizIntroductionWithSegue:" id="M8f-1X-ac3"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="resultAnswerLabel" destination="cY5-2E-JGH" id="zGW-UO-WRM"/>
+                        <outlet property="resultDefinitionLabel" destination="Op2-K5-n7t" id="Cpy-aa-eV4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1cc-1C-mRb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Yyd-as-uoO" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2628.985507246377" y="83.705357142857139"/>
         </scene>
