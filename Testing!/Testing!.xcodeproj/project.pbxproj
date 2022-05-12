@@ -7,32 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB003F13282D2D1900214F32 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB003F12282D2D1900214F32 /* BadgeBackground.swift */; };
-		CB003F15282D3B6800214F32 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB003F14282D3B6800214F32 /* BadgeSymbol.swift */; };
-		CB9C58C9282971250064A3AC /* Shape Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C58C8282971250064A3AC /* Shape Parameters.swift */; };
-		CBC706DE28257BBF007D7908 /* Paintomizer_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC706DD28257BBF007D7908 /* Paintomizer_App.swift */; };
-		CBC706E028257BBF007D7908 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC706DF28257BBF007D7908 /* ContentView.swift */; };
-		CBC706E228257BC3007D7908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC706E128257BC3007D7908 /* Assets.xcassets */; };
-		CBC706E528257BC3007D7908 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC706E428257BC3007D7908 /* Preview Assets.xcassets */; };
-		CBC706E728257BC3007D7908 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC706E628257BC3007D7908 /* Persistence.swift */; };
-		CBC706EA28257BC3007D7908 /* Paintomizer_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBC706E828257BC3007D7908 /* Paintomizer_.xcdatamodeld */; };
+		CB003EFE282D2B9600214F32 /* Testing_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB003EFD282D2B9600214F32 /* Testing_App.swift */; };
+		CB003F00282D2B9600214F32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB003EFF282D2B9600214F32 /* ContentView.swift */; };
+		CB003F02282D2B9A00214F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB003F01282D2B9A00214F32 /* Assets.xcassets */; };
+		CB003F05282D2B9A00214F32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB003F04282D2B9A00214F32 /* Preview Assets.xcassets */; };
+		CB003F07282D2B9A00214F32 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB003F06282D2B9A00214F32 /* Persistence.swift */; };
+		CB003F0A282D2B9A00214F32 /* Testing_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB003F08282D2B9A00214F32 /* Testing_.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB003F12282D2D1900214F32 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
-		CB003F14282D3B6800214F32 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
-		CB9C58C8282971250064A3AC /* Shape Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shape Parameters.swift"; sourceTree = "<group>"; };
-		CBC706DA28257BBF007D7908 /* Paintomizer!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paintomizer!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBC706DD28257BBF007D7908 /* Paintomizer_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paintomizer_App.swift; sourceTree = "<group>"; };
-		CBC706DF28257BBF007D7908 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CBC706E128257BC3007D7908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CBC706E428257BC3007D7908 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CBC706E628257BC3007D7908 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		CBC706E928257BC3007D7908 /* Paintomizer_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Paintomizer_.xcdatamodel; sourceTree = "<group>"; };
+		CB003EFA282D2B9600214F32 /* Testing!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Testing!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB003EFD282D2B9600214F32 /* Testing_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_App.swift; sourceTree = "<group>"; };
+		CB003EFF282D2B9600214F32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB003F01282D2B9A00214F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB003F04282D2B9A00214F32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB003F06282D2B9A00214F32 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CB003F09282D2B9A00214F32 /* Testing_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Testing_.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CBC706D728257BBF007D7908 /* Frameworks */ = {
+		CB003EF7282D2B9600214F32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,42 +36,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CBC706D128257BBF007D7908 = {
+		CB003EF1282D2B9600214F32 = {
 			isa = PBXGroup;
 			children = (
-				CBC706DC28257BBF007D7908 /* Paintomizer! */,
-				CBC706DB28257BBF007D7908 /* Products */,
+				CB003EFC282D2B9600214F32 /* Testing! */,
+				CB003EFB282D2B9600214F32 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CBC706DB28257BBF007D7908 /* Products */ = {
+		CB003EFB282D2B9600214F32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBC706DA28257BBF007D7908 /* Paintomizer!.app */,
+				CB003EFA282D2B9600214F32 /* Testing!.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CBC706DC28257BBF007D7908 /* Paintomizer! */ = {
+		CB003EFC282D2B9600214F32 /* Testing! */ = {
 			isa = PBXGroup;
 			children = (
-				CBC706DD28257BBF007D7908 /* Paintomizer_App.swift */,
-				CBC706DF28257BBF007D7908 /* ContentView.swift */,
-				CB9C58C8282971250064A3AC /* Shape Parameters.swift */,
-				CB003F12282D2D1900214F32 /* BadgeBackground.swift */,
-				CBC706E128257BC3007D7908 /* Assets.xcassets */,
-				CB003F14282D3B6800214F32 /* BadgeSymbol.swift */,
-				CBC706E628257BC3007D7908 /* Persistence.swift */,
-				CBC706E828257BC3007D7908 /* Paintomizer_.xcdatamodeld */,
-				CBC706E328257BC3007D7908 /* Preview Content */,
+				CB003EFD282D2B9600214F32 /* Testing_App.swift */,
+				CB003EFF282D2B9600214F32 /* ContentView.swift */,
+				CB003F01282D2B9A00214F32 /* Assets.xcassets */,
+				CB003F06282D2B9A00214F32 /* Persistence.swift */,
+				CB003F08282D2B9A00214F32 /* Testing_.xcdatamodeld */,
+				CB003F03282D2B9A00214F32 /* Preview Content */,
 			);
-			path = "Paintomizer!";
+			path = "Testing!";
 			sourceTree = "<group>";
 		};
-		CBC706E328257BC3007D7908 /* Preview Content */ = {
+		CB003F03282D2B9A00214F32 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CBC706E428257BC3007D7908 /* Preview Assets.xcassets */,
+				CB003F04282D2B9A00214F32 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -85,39 +76,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBC706D928257BBF007D7908 /* Paintomizer! */ = {
+		CB003EF9282D2B9600214F32 /* Testing! */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBC706ED28257BC3007D7908 /* Build configuration list for PBXNativeTarget "Paintomizer!" */;
+			buildConfigurationList = CB003F0D282D2B9A00214F32 /* Build configuration list for PBXNativeTarget "Testing!" */;
 			buildPhases = (
-				CBC706D628257BBF007D7908 /* Sources */,
-				CBC706D728257BBF007D7908 /* Frameworks */,
-				CBC706D828257BBF007D7908 /* Resources */,
+				CB003EF6282D2B9600214F32 /* Sources */,
+				CB003EF7282D2B9600214F32 /* Frameworks */,
+				CB003EF8282D2B9600214F32 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Paintomizer!";
-			productName = "Paintomizer!";
-			productReference = CBC706DA28257BBF007D7908 /* Paintomizer!.app */;
+			name = "Testing!";
+			productName = "Testing!";
+			productReference = CB003EFA282D2B9600214F32 /* Testing!.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CBC706D228257BBF007D7908 /* Project object */ = {
+		CB003EF2282D2B9600214F32 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					CBC706D928257BBF007D7908 = {
+					CB003EF9282D2B9600214F32 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = CBC706D528257BBF007D7908 /* Build configuration list for PBXProject "Paintomizer!" */;
+			buildConfigurationList = CB003EF5282D2B9600214F32 /* Build configuration list for PBXProject "Testing!" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,47 +116,44 @@
 				en,
 				Base,
 			);
-			mainGroup = CBC706D128257BBF007D7908;
-			productRefGroup = CBC706DB28257BBF007D7908 /* Products */;
+			mainGroup = CB003EF1282D2B9600214F32;
+			productRefGroup = CB003EFB282D2B9600214F32 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBC706D928257BBF007D7908 /* Paintomizer! */,
+				CB003EF9282D2B9600214F32 /* Testing! */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CBC706D828257BBF007D7908 /* Resources */ = {
+		CB003EF8282D2B9600214F32 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBC706E528257BC3007D7908 /* Preview Assets.xcassets in Resources */,
-				CBC706E228257BC3007D7908 /* Assets.xcassets in Resources */,
+				CB003F05282D2B9A00214F32 /* Preview Assets.xcassets in Resources */,
+				CB003F02282D2B9A00214F32 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CBC706D628257BBF007D7908 /* Sources */ = {
+		CB003EF6282D2B9600214F32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB003F15282D3B6800214F32 /* BadgeSymbol.swift in Sources */,
-				CBC706E728257BC3007D7908 /* Persistence.swift in Sources */,
-				CB003F13282D2D1900214F32 /* BadgeBackground.swift in Sources */,
-				CBC706E028257BBF007D7908 /* ContentView.swift in Sources */,
-				CBC706EA28257BC3007D7908 /* Paintomizer_.xcdatamodeld in Sources */,
-				CB9C58C9282971250064A3AC /* Shape Parameters.swift in Sources */,
-				CBC706DE28257BBF007D7908 /* Paintomizer_App.swift in Sources */,
+				CB003F07282D2B9A00214F32 /* Persistence.swift in Sources */,
+				CB003F00282D2B9600214F32 /* ContentView.swift in Sources */,
+				CB003F0A282D2B9A00214F32 /* Testing_.xcdatamodeld in Sources */,
+				CB003EFE282D2B9600214F32 /* Testing_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CBC706EB28257BC3007D7908 /* Debug */ = {
+		CB003F0B282D2B9A00214F32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		CBC706EC28257BC3007D7908 /* Release */ = {
+		CB003F0C282D2B9A00214F32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,14 +269,14 @@
 			};
 			name = Release;
 		};
-		CBC706EE28257BC3007D7908 /* Debug */ = {
+		CB003F0E282D2B9A00214F32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Paintomizer!/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Testing!/Preview Content\"";
 				DEVELOPMENT_TEAM = 3XA3D37B3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -302,7 +290,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.ssfs.Paintomizer-";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ssfs.Testing-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,14 +298,14 @@
 			};
 			name = Debug;
 		};
-		CBC706EF28257BC3007D7908 /* Release */ = {
+		CB003F0F282D2B9A00214F32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Paintomizer!/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Testing!/Preview Content\"";
 				DEVELOPMENT_TEAM = 3XA3D37B3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -331,7 +319,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.ssfs.Paintomizer-";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ssfs.Testing-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -342,20 +330,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CBC706D528257BBF007D7908 /* Build configuration list for PBXProject "Paintomizer!" */ = {
+		CB003EF5282D2B9600214F32 /* Build configuration list for PBXProject "Testing!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBC706EB28257BC3007D7908 /* Debug */,
-				CBC706EC28257BC3007D7908 /* Release */,
+				CB003F0B282D2B9A00214F32 /* Debug */,
+				CB003F0C282D2B9A00214F32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBC706ED28257BC3007D7908 /* Build configuration list for PBXNativeTarget "Paintomizer!" */ = {
+		CB003F0D282D2B9A00214F32 /* Build configuration list for PBXNativeTarget "Testing!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBC706EE28257BC3007D7908 /* Debug */,
-				CBC706EF28257BC3007D7908 /* Release */,
+				CB003F0E282D2B9A00214F32 /* Debug */,
+				CB003F0F282D2B9A00214F32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -363,17 +351,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CBC706E828257BC3007D7908 /* Paintomizer_.xcdatamodeld */ = {
+		CB003F08282D2B9A00214F32 /* Testing_.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CBC706E928257BC3007D7908 /* Paintomizer_.xcdatamodel */,
+				CB003F09282D2B9A00214F32 /* Testing_.xcdatamodel */,
 			);
-			currentVersion = CBC706E928257BC3007D7908 /* Paintomizer_.xcdatamodel */;
-			path = Paintomizer_.xcdatamodeld;
+			currentVersion = CB003F09282D2B9A00214F32 /* Testing_.xcdatamodel */;
+			path = Testing_.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = CBC706D228257BBF007D7908 /* Project object */;
+	rootObject = CB003EF2282D2B9600214F32 /* Project object */;
 }
