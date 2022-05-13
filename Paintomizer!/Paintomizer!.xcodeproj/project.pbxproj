@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CB003F13282D2D1900214F32 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB003F12282D2D1900214F32 /* BadgeBackground.swift */; };
 		CB003F15282D3B6800214F32 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB003F14282D3B6800214F32 /* BadgeSymbol.swift */; };
+		CB74593B282E902C00192896 /* RotatedBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB74593A282E902C00192896 /* RotatedBadgeView.swift */; };
+		CB74593D282E914800192896 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB74593C282E914800192896 /* Badge.swift */; };
 		CB9C58C9282971250064A3AC /* Shape Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C58C8282971250064A3AC /* Shape Parameters.swift */; };
 		CBC706DE28257BBF007D7908 /* Paintomizer_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC706DD28257BBF007D7908 /* Paintomizer_App.swift */; };
 		CBC706E028257BBF007D7908 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC706DF28257BBF007D7908 /* ContentView.swift */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		CB003F12282D2D1900214F32 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		CB003F14282D3B6800214F32 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		CB74593A282E902C00192896 /* RotatedBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeView.swift; sourceTree = "<group>"; };
+		CB74593C282E914800192896 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		CB9C58C8282971250064A3AC /* Shape Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shape Parameters.swift"; sourceTree = "<group>"; };
 		CBC706DA28257BBF007D7908 /* Paintomizer!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paintomizer!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC706DD28257BBF007D7908 /* Paintomizer_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paintomizer_App.swift; sourceTree = "<group>"; };
@@ -42,6 +46,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB74593E282E944C00192896 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				CB74593C282E914800192896 /* Badge.swift */,
+				CB003F12282D2D1900214F32 /* BadgeBackground.swift */,
+				CB003F14282D3B6800214F32 /* BadgeSymbol.swift */,
+				CB74593A282E902C00192896 /* RotatedBadgeView.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		CBC706D128257BBF007D7908 = {
 			isa = PBXGroup;
 			children = (
@@ -64,9 +79,8 @@
 				CBC706DD28257BBF007D7908 /* Paintomizer_App.swift */,
 				CBC706DF28257BBF007D7908 /* ContentView.swift */,
 				CB9C58C8282971250064A3AC /* Shape Parameters.swift */,
-				CB003F12282D2D1900214F32 /* BadgeBackground.swift */,
 				CBC706E128257BC3007D7908 /* Assets.xcassets */,
-				CB003F14282D3B6800214F32 /* BadgeSymbol.swift */,
+				CB74593E282E944C00192896 /* Badges */,
 				CBC706E628257BC3007D7908 /* Persistence.swift */,
 				CBC706E828257BC3007D7908 /* Paintomizer_.xcdatamodeld */,
 				CBC706E328257BC3007D7908 /* Preview Content */,
@@ -154,10 +168,12 @@
 			files = (
 				CB003F15282D3B6800214F32 /* BadgeSymbol.swift in Sources */,
 				CBC706E728257BC3007D7908 /* Persistence.swift in Sources */,
+				CB74593B282E902C00192896 /* RotatedBadgeView.swift in Sources */,
 				CB003F13282D2D1900214F32 /* BadgeBackground.swift in Sources */,
 				CBC706E028257BBF007D7908 /* ContentView.swift in Sources */,
 				CBC706EA28257BC3007D7908 /* Paintomizer_.xcdatamodeld in Sources */,
 				CB9C58C9282971250064A3AC /* Shape Parameters.swift in Sources */,
+				CB74593D282E914800192896 /* Badge.swift in Sources */,
 				CBC706DE28257BBF007D7908 /* Paintomizer_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
