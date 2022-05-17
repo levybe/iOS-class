@@ -15,9 +15,21 @@ struct HexagonParameters {
         let control: CGPoint
     }
 
-    static let adjustment: CGFloat = 0.085
+let adjustment: CGFloat = Double.random(in: 1..<100)
+let numSegments = Int.random(in: 1..<100)
+let segments: [Segment]
 
-    static let segments = [
+init() {
+    for i in 1..<100 {
+        segments.append(
+            Segment (
+                line:    CGPoint(x: 0.05, y: 0.20 + adjustment),
+                curve:   CGPoint(x: 0.00, y: 0.30 + adjustment),
+                control: CGPoint(x: 0.00, y: 0.25 + adjustment)
+            )
+        )
+    }
+}
         Segment(
             line:    CGPoint(x: 0.60, y: 0.05),
             curve:   CGPoint(x: 0.40, y: 0.05),
