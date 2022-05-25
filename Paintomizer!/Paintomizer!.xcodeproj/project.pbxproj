@@ -7,36 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB003F13282D2D1900214F32 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB003F12282D2D1900214F32 /* BadgeBackground.swift */; };
-		CB003F15282D3B6800214F32 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB003F14282D3B6800214F32 /* BadgeSymbol.swift */; };
-		CB74593B282E902C00192896 /* RotatedBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB74593A282E902C00192896 /* RotatedBadgeView.swift */; };
-		CB74593D282E914800192896 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB74593C282E914800192896 /* Badge.swift */; };
-		CB9C58C9282971250064A3AC /* Shape Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C58C8282971250064A3AC /* Shape Parameters.swift */; };
-		CBC706DE28257BBF007D7908 /* Paintomizer_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC706DD28257BBF007D7908 /* Paintomizer_App.swift */; };
-		CBC706E028257BBF007D7908 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC706DF28257BBF007D7908 /* ContentView.swift */; };
-		CBC706E228257BC3007D7908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC706E128257BC3007D7908 /* Assets.xcassets */; };
-		CBC706E528257BC3007D7908 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC706E428257BC3007D7908 /* Preview Assets.xcassets */; };
-		CBC706E728257BC3007D7908 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC706E628257BC3007D7908 /* Persistence.swift */; };
-		CBC706EA28257BC3007D7908 /* Paintomizer_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBC706E828257BC3007D7908 /* Paintomizer_.xcdatamodeld */; };
+		CB2DBE1D283E674F00B948E1 /* Paintomizer_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DBE1C283E674F00B948E1 /* Paintomizer_App.swift */; };
+		CB2DBE1F283E674F00B948E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DBE1E283E674F00B948E1 /* ContentView.swift */; };
+		CB2DBE21283E675200B948E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2DBE20283E675200B948E1 /* Assets.xcassets */; };
+		CB2DBE24283E675200B948E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2DBE23283E675200B948E1 /* Preview Assets.xcassets */; };
+		CB2DBE2B283E676600B948E1 /* ShapeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DBE2A283E676600B948E1 /* ShapeParameters.swift */; };
+		CB2DBE2D283E677500B948E1 /* DrawShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DBE2C283E677500B948E1 /* DrawShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB003F12282D2D1900214F32 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
-		CB003F14282D3B6800214F32 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
-		CB74593A282E902C00192896 /* RotatedBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeView.swift; sourceTree = "<group>"; };
-		CB74593C282E914800192896 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
-		CB9C58C8282971250064A3AC /* Shape Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shape Parameters.swift"; sourceTree = "<group>"; };
-		CBC706DA28257BBF007D7908 /* Paintomizer!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paintomizer!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBC706DD28257BBF007D7908 /* Paintomizer_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paintomizer_App.swift; sourceTree = "<group>"; };
-		CBC706DF28257BBF007D7908 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CBC706E128257BC3007D7908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CBC706E428257BC3007D7908 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CBC706E628257BC3007D7908 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		CBC706E928257BC3007D7908 /* Paintomizer_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Paintomizer_.xcdatamodel; sourceTree = "<group>"; };
+		CB2DBE19283E674F00B948E1 /* Paintomizer!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paintomizer!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2DBE1C283E674F00B948E1 /* Paintomizer_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paintomizer_App.swift; sourceTree = "<group>"; };
+		CB2DBE1E283E674F00B948E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB2DBE20283E675200B948E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB2DBE23283E675200B948E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB2DBE2A283E676600B948E1 /* ShapeParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeParameters.swift; sourceTree = "<group>"; };
+		CB2DBE2C283E677500B948E1 /* DrawShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CBC706D728257BBF007D7908 /* Frameworks */ = {
+		CB2DBE16283E674F00B948E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,52 +36,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB74593E282E944C00192896 /* Badges */ = {
+		CB2DBE10283E674F00B948E1 = {
 			isa = PBXGroup;
 			children = (
-				CB74593C282E914800192896 /* Badge.swift */,
-				CB003F12282D2D1900214F32 /* BadgeBackground.swift */,
-				CB003F14282D3B6800214F32 /* BadgeSymbol.swift */,
-				CB74593A282E902C00192896 /* RotatedBadgeView.swift */,
-			);
-			path = Badges;
-			sourceTree = "<group>";
-		};
-		CBC706D128257BBF007D7908 = {
-			isa = PBXGroup;
-			children = (
-				CBC706DC28257BBF007D7908 /* Paintomizer! */,
-				CBC706DB28257BBF007D7908 /* Products */,
+				CB2DBE1B283E674F00B948E1 /* Paintomizer! */,
+				CB2DBE1A283E674F00B948E1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CBC706DB28257BBF007D7908 /* Products */ = {
+		CB2DBE1A283E674F00B948E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBC706DA28257BBF007D7908 /* Paintomizer!.app */,
+				CB2DBE19283E674F00B948E1 /* Paintomizer!.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CBC706DC28257BBF007D7908 /* Paintomizer! */ = {
+		CB2DBE1B283E674F00B948E1 /* Paintomizer! */ = {
 			isa = PBXGroup;
 			children = (
-				CBC706DD28257BBF007D7908 /* Paintomizer_App.swift */,
-				CBC706DF28257BBF007D7908 /* ContentView.swift */,
-				CB9C58C8282971250064A3AC /* Shape Parameters.swift */,
-				CBC706E128257BC3007D7908 /* Assets.xcassets */,
-				CB74593E282E944C00192896 /* Badges */,
-				CBC706E628257BC3007D7908 /* Persistence.swift */,
-				CBC706E828257BC3007D7908 /* Paintomizer_.xcdatamodeld */,
-				CBC706E328257BC3007D7908 /* Preview Content */,
+				CB2DBE1C283E674F00B948E1 /* Paintomizer_App.swift */,
+				CB2DBE1E283E674F00B948E1 /* ContentView.swift */,
+				CB2DBE2A283E676600B948E1 /* ShapeParameters.swift */,
+				CB2DBE2C283E677500B948E1 /* DrawShape.swift */,
+				CB2DBE20283E675200B948E1 /* Assets.xcassets */,
+				CB2DBE22283E675200B948E1 /* Preview Content */,
 			);
 			path = "Paintomizer!";
 			sourceTree = "<group>";
 		};
-		CBC706E328257BC3007D7908 /* Preview Content */ = {
+		CB2DBE22283E675200B948E1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CBC706E428257BC3007D7908 /* Preview Assets.xcassets */,
+				CB2DBE23283E675200B948E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -99,13 +76,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBC706D928257BBF007D7908 /* Paintomizer! */ = {
+		CB2DBE18283E674F00B948E1 /* Paintomizer! */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBC706ED28257BC3007D7908 /* Build configuration list for PBXNativeTarget "Paintomizer!" */;
+			buildConfigurationList = CB2DBE27283E675200B948E1 /* Build configuration list for PBXNativeTarget "Paintomizer!" */;
 			buildPhases = (
-				CBC706D628257BBF007D7908 /* Sources */,
-				CBC706D728257BBF007D7908 /* Frameworks */,
-				CBC706D828257BBF007D7908 /* Resources */,
+				CB2DBE15283E674F00B948E1 /* Sources */,
+				CB2DBE16283E674F00B948E1 /* Frameworks */,
+				CB2DBE17283E674F00B948E1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -113,25 +90,25 @@
 			);
 			name = "Paintomizer!";
 			productName = "Paintomizer!";
-			productReference = CBC706DA28257BBF007D7908 /* Paintomizer!.app */;
+			productReference = CB2DBE19283E674F00B948E1 /* Paintomizer!.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CBC706D228257BBF007D7908 /* Project object */ = {
+		CB2DBE11283E674F00B948E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					CBC706D928257BBF007D7908 = {
+					CB2DBE18283E674F00B948E1 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = CBC706D528257BBF007D7908 /* Build configuration list for PBXProject "Paintomizer!" */;
+			buildConfigurationList = CB2DBE14283E674F00B948E1 /* Build configuration list for PBXProject "Paintomizer!" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,49 +116,44 @@
 				en,
 				Base,
 			);
-			mainGroup = CBC706D128257BBF007D7908;
-			productRefGroup = CBC706DB28257BBF007D7908 /* Products */;
+			mainGroup = CB2DBE10283E674F00B948E1;
+			productRefGroup = CB2DBE1A283E674F00B948E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBC706D928257BBF007D7908 /* Paintomizer! */,
+				CB2DBE18283E674F00B948E1 /* Paintomizer! */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CBC706D828257BBF007D7908 /* Resources */ = {
+		CB2DBE17283E674F00B948E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBC706E528257BC3007D7908 /* Preview Assets.xcassets in Resources */,
-				CBC706E228257BC3007D7908 /* Assets.xcassets in Resources */,
+				CB2DBE24283E675200B948E1 /* Preview Assets.xcassets in Resources */,
+				CB2DBE21283E675200B948E1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CBC706D628257BBF007D7908 /* Sources */ = {
+		CB2DBE15283E674F00B948E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB003F15282D3B6800214F32 /* BadgeSymbol.swift in Sources */,
-				CBC706E728257BC3007D7908 /* Persistence.swift in Sources */,
-				CB74593B282E902C00192896 /* RotatedBadgeView.swift in Sources */,
-				CB003F13282D2D1900214F32 /* BadgeBackground.swift in Sources */,
-				CBC706E028257BBF007D7908 /* ContentView.swift in Sources */,
-				CBC706EA28257BC3007D7908 /* Paintomizer_.xcdatamodeld in Sources */,
-				CB9C58C9282971250064A3AC /* Shape Parameters.swift in Sources */,
-				CB74593D282E914800192896 /* Badge.swift in Sources */,
-				CBC706DE28257BBF007D7908 /* Paintomizer_App.swift in Sources */,
+				CB2DBE1F283E674F00B948E1 /* ContentView.swift in Sources */,
+				CB2DBE2D283E677500B948E1 /* DrawShape.swift in Sources */,
+				CB2DBE1D283E674F00B948E1 /* Paintomizer_App.swift in Sources */,
+				CB2DBE2B283E676600B948E1 /* ShapeParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CBC706EB28257BC3007D7908 /* Debug */ = {
+		CB2DBE25283E675200B948E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		CBC706EC28257BC3007D7908 /* Release */ = {
+		CB2DBE26283E675200B948E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +269,7 @@
 			};
 			name = Release;
 		};
-		CBC706EE28257BC3007D7908 /* Debug */ = {
+		CB2DBE28283E675200B948E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -326,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		CBC706EF28257BC3007D7908 /* Release */ = {
+		CB2DBE29283E675200B948E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -358,38 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CBC706D528257BBF007D7908 /* Build configuration list for PBXProject "Paintomizer!" */ = {
+		CB2DBE14283E674F00B948E1 /* Build configuration list for PBXProject "Paintomizer!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBC706EB28257BC3007D7908 /* Debug */,
-				CBC706EC28257BC3007D7908 /* Release */,
+				CB2DBE25283E675200B948E1 /* Debug */,
+				CB2DBE26283E675200B948E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBC706ED28257BC3007D7908 /* Build configuration list for PBXNativeTarget "Paintomizer!" */ = {
+		CB2DBE27283E675200B948E1 /* Build configuration list for PBXNativeTarget "Paintomizer!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBC706EE28257BC3007D7908 /* Debug */,
-				CBC706EF28257BC3007D7908 /* Release */,
+				CB2DBE28283E675200B948E1 /* Debug */,
+				CB2DBE29283E675200B948E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CBC706E828257BC3007D7908 /* Paintomizer_.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CBC706E928257BC3007D7908 /* Paintomizer_.xcdatamodel */,
-			);
-			currentVersion = CBC706E928257BC3007D7908 /* Paintomizer_.xcdatamodel */;
-			path = Paintomizer_.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = CBC706D228257BBF007D7908 /* Project object */;
+	rootObject = CB2DBE11283E674F00B948E1 /* Project object */;
 }
